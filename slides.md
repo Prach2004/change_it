@@ -7,34 +7,34 @@ _color: "#ECEFF4"
 ---
 
 # Product Documentation
----
+
 Your email: 24f1001831@ds.study.iitm.ac.in
 
 ---
-# The Solution
-Our product offers a scalable, robust platform.
----
-## Algorithmic Complexity
-Our solution runs in optimal time. For instance, the time complexity of our algorithm is:
 
-$O(n \log n)$
-
----
 ![bg](https://picsum.photos/1920/1080)
 # Our Vision
 A clear path to a better future.
 
 ---
+## Algorithmic Complexity
+
+Our solution runs in optimal time. For instance, the time complexity of our algorithm is:
+
+$$
+O(n \log n)
+$$
+
+---
 ## Key Features
 <style>
-.section-body {
+section {
   background-color: #3B4252;
-  border-radius: 10px;
-  padding: 20px;
+}
+h2 {
+  color: #88C0D0;
 }
 </style>
-<div class="section-body">
 - Feature 1: Scalability
 - Feature 2: Security
 - Feature 3: Performance
-</div>
