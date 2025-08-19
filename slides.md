@@ -5,15 +5,13 @@ paginate: true
 footer: "Page $current / $total"
 math: katex
 style: |
-  /* Deck-level tweaks via Marp directives */
-  .callout {
-    border-left: 6px solid #0f766e;
-    padding: .6rem 1rem;
-    background: #f8fafc;
-  }
+  .callout {
+    border-left: 6px solid #0f766e;
+    padding: .6rem 1rem;
+    background: #f8fafc;
+  }
 ---
 
-<!-- _class: lead -->
 # Product Documentation with Marp
 ### Maintainable • Version-controlled • Multi-format
 
@@ -31,7 +29,6 @@ style: |
 
 ---
 
-<!-- _color: white -->
 ![bg](assets/bg.jpg)
 
 # Architecture Overview (Background)
@@ -56,8 +53,8 @@ This box uses a custom <code>.callout</code> style defined in the <code>style</c
 ---
 
 # Algorithmic Complexity (Math)
-- Sorting: $T(n) = O(n \log n)$  
-- Hash lookup: $O(1)$ average, $O(n)$ worst  
+- Sorting: $T(n) = O(n \log n)$ 
+- Hash lookup: $O(1)$ average, $O(n)$ worst 
 - Combined pipeline:
 $$
 T(n) = O(n \log n + m)
