@@ -9,6 +9,10 @@ Note:
 ---
 ## KPI Snapshot (Markdown)
 24f1001831@ds.study.iitm.ac.in
+
+*NPV:* $$ \mathrm{NPV}=\sum_{t=1}^{T}\frac{CF_t}{(1+r)^t}-I_0 $$
+*CAPM:* $$ \mathbb{E}[R_i]=R_f+\beta_i\big(\mathbb{E}[R_m]-R_f\big) $$
+
 - *Revenue:* $X.XB
 - *Operating Margin:* YY%
 - *Net Income:* $X.XXB
