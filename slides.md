@@ -1,24 +1,40 @@
-# Agenda
-- Performance Overview
-- Segment Results
-- Guidance & Risks
-- Q&A
-Note:
-  Keep this to 30–45 seconds. Set expectations for data depth.
+---
+marp: true
+theme: gaia
+paginate: true
+_backgroundColor: "#2E3440"
+_color: "#ECEFF4"
+---
+
+# Product Documentation
+---
+Your email: 24f1001831@ds.study.iitm.ac.in
 
 ---
-## KPI Snapshot (Markdown)
-24f1001831@ds.study.iitm.ac.in
-- *Revenue:* $X.XB
-- *Operating Margin:* YY%
-- *Net Income:* $X.XXB
-- *FCF Conversion:* ZZ%
-Note:
-  Replace placeholders before publishing. Mention drivers & one risk.
+# The Solution
+Our product offers a scalable, robust platform.
+---
+## Algorithmic Complexity
+Our solution runs in optimal time. For instance, the time complexity of our algorithm is:
 
---
-### KPI Notes
-- Mix shift improved margins
-- Opex disciplined; hiring freeze maintained
-Note:
-  This is a vertical child slide. Use only if time permits.
+$O(n \log n)$
+
+---
+![bg](https://picsum.photos/1920/1080)
+# Our Vision
+A clear path to a better future.
+
+---
+## Key Features
+<style>
+.section-body {
+  background-color: #3B4252;
+  border-radius: 10px;
+  padding: 20px;
+}
+</style>
+<div class="section-body">
+- Feature 1: Scalability
+- Feature 2: Security
+- Feature 3: Performance
+</div>
