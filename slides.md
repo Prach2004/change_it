@@ -1,75 +1,24 @@
----
-marp: true
-theme: product-docs
-paginate: true
-footer: "Page $current / $total"
-math: katex
-style: |
-  .callout {
-    border-left: 6px solid #0f766e;
-    padding: .6rem 1rem;
-    background: #f8fafc;
-  }
----
-
-# Product Documentation with Marp
-### Maintainable • Version-controlled • Multi-format
-
-*Contact:* 24f1001831@ds.study.iitm.ac.in
+# Agenda
+- Performance Overview
+- Segment Results
+- Guidance & Risks
+- Q&A
+Note:
+  Keep this to 30–45 seconds. Set expectations for data depth.
 
 ---
+## KPI Snapshot (Markdown)
+24f1001831@ds.study.iitm.ac.in
+- *Revenue:* $X.XB
+- *Operating Margin:* YY%
+- *Net Income:* $X.XXB
+- *FCF Conversion:* ZZ%
+Note:
+  Replace placeholders before publishing. Mention drivers & one risk.
 
-# Why Marp for Product Docs?
-- *Single source of truth* (Markdown) → PDF/PPTX/HTML
-- *Git-friendly:* diffs, reviews, PRs
-- *Theming & branding:* custom CSS themes
-- *Automation-ready:* CI exports on release
-
-> Tip: Keep screenshots/diagrams in /assets and reference them relatively.
-
----
-
-![bg](assets/bg.jpg)
-
-# Architecture Overview (Background)
-- High-level services & interfaces
-- Environments (dev/stage/prod)
-- Deployment topology & dependencies
-
-Use the background slide for big-picture illustrations.
-
----
-
-# Custom Theme + Directives
-- Using custom theme: **product-docs**
-- Page numbers via paginate: true and footer
-- Inline brand accent: <span class="brand">highlighted text</span>
-- Local slide tweaks via style: in front matter or _class
-
-<div class="callout">
-This box uses a custom <code>.callout</code> style defined in the <code>style</code> directive.
-</div>
-
----
-
-# Algorithmic Complexity (Math)
-- Sorting: $T(n) = O(n \log n)$ 
-- Hash lookup: $O(1)$ average, $O(n)$ worst 
-- Combined pipeline:
-$$
-T(n) = O(n \log n + m)
-$$
-
----
-
-# CLI (Build & Export)
-```bash
-# Live preview (serves slides at http://localhost:8080)
-marp --theme-set theme.css slides.md --server
-
-# Export to PDF and PPTX
-marp --theme-set theme.css slides.md -o slides.pdf
-marp --theme-set theme.css slides.md -o slides.pptx
-
-# Export to HTML
-marp --theme-set theme.css slides.md -o index.html
+--
+### KPI Notes
+- Mix shift improved margins
+- Opex disciplined; hiring freeze maintained
+Note:
+  This is a vertical child slide. Use only if time permits.
