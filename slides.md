@@ -5,11 +5,11 @@ paginate: true
 footer: "Page $current / $total"
 math: katex
 style: |
-  .callout {
-    border-left: 6px solid #0f766e;
-    padding: .6rem 1rem;
-    background: #f8fafc;
-  }
+  .callout {
+    border-left: 6px solid #0f766e;
+    padding: .6rem 1rem;
+    background: #f8fafc;
+  }
 ---
 
 # Product Documentation with Marp
